@@ -1,0 +1,75 @@
+body{
+   background: linear-gradient(-135deg, #aa4b6b, #6b6b83, #3b8d99) fixed;;
+   color: gainsboro;
+}
+
+h1{
+    text-align: center;
+    background: linear-gradient(-135deg, #bdc3c7, #2c3e50) fixed;;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.post{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.cp_iptxt{
+    margin-bottom: 20px;
+}
+
+.caption{
+    height: 80px;
+    width: 400px;
+}
+
+.save{
+    border: solid 2px white;
+    border-radius: 5%;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+}
+
+.save:hover{
+    border: solid 2px rgb(29, 29, 29);
+    background: linear-gradient(-135deg, #bdc3c7, #2c3e50) fixed;;
+}
+
+.clear{
+    border: solid 2px white;
+    border-radius: 5%;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    float: right;
+    margin-right: 20px;
+}
+
+.clear:hover{
+    border: solid 2px rgb(88, 11, 11);
+    background: linear-gradient(-135deg, #bdc3c7, #2c3e50) fixed;
+}
+
+* {
+	box-sizing: border-box;
+}
+.grid-item {
+	width: 33%;
+	padding: 30px;
+}
+.grid-item img {
+	display: block;
+	width: 100%
+}
+
+.caption{
+    padding-top: 20px;
+    display: block;
+}
+
+img {
+    border-radius: 5%;
+}
